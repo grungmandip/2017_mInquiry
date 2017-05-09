@@ -11,10 +11,10 @@
 ~Msle0~/\<seatC\>
 
 # Command Line History (newest to oldest):
-::::
-:q
 :wq
 :qw
+:q
+::::
 
 # Search String History (newest to oldest):
 ? \<seatC\>
@@ -29,19 +29,23 @@
 # Registers:
 
 # File marks:
-'0  12  48  ~/Inquiry/wwwroot/Handy/index.html
-'1  1  2  /var/www/html/maharajan/1project/creatform.html
-'2  1  0  /var/www/html/maharajan/1project/create.php
-'3  28  0  /var/www/html/maharajan/itproject/acsv.php
-'4  25  15  /var/www/html/maharajan/itproject/acsv.php
-'5  19  0  /var/www/html/maharajan/itproject/acsv.php
-'6  1  0  /var/www/html/maharajan/itproject/afile.csv
-'7  16  44  /var/www/html/maharajan/itproject/acsv.php
-'8  21  0  /var/www/html/maharajan/itproject/csv.php
-'9  1  0  /var/www/html/maharajan/itproject/acsv.pphp
+'0  8  69  /var/www/html/maharajan/3itproject/index.html
+'1  7  65  /var/www/html/maharajan/3itproject/index.html
+'2  16  5  ~/Inquiry/wwwroot/Handy/index.html
+'3  12  48  ~/Inquiry/wwwroot/Handy/index.html
+'4  1  2  /var/www/html/maharajan/1project/creatform.html
+'5  1  0  /var/www/html/maharajan/1project/create.php
+'6  28  0  /var/www/html/maharajan/itproject/acsv.php
+'7  25  15  /var/www/html/maharajan/itproject/acsv.php
+'8  19  0  /var/www/html/maharajan/itproject/acsv.php
+'9  1  0  /var/www/html/maharajan/itproject/afile.csv
 
 # Jumplist (newest first):
--'  12  48  ~/Inquiry/wwwroot/Handy/index.html
+-'  8  69  /var/www/html/maharajan/3itproject/index.html
+-'  7  0  /var/www/html/maharajan/3itproject/index.html
+-'  1  0  /var/www/html/maharajan/3itproject/index.html
+-'  16  5  ~/Inquiry/wwwroot/Handy/index.html
+-'  12  2  ~/Inquiry/wwwroot/Handy/index.html
 -'  1  0  ~/Inquiry/wwwroot/Handy/index.html
 -'  1  2  /var/www/html/maharajan/1project/creatform.html
 -'  1  0  /var/www/html/maharajan/1project/create.php
@@ -135,13 +139,22 @@
 -'  1  0  /var/www/html/maharajan/index.html
 -'  1  0  /var/www/html/maharajan/index.html
 -'  1  0  /var/www/html/maharajan/itproject/file
--'  1  0  /var/www/html/maharajan/index.html
--'  1  0  /var/www/html/maharajan/index.html
 
 # History of marks within files (newest to oldest):
 
+> /var/www/html/maharajan/3itproject/index.html
+	"	8	69
+	^	8	70
+	.	8	0
+	+	10	25
+	+	21	6
+	+	20	0
+	+	5	12
+	+	7	0
+	+	8	0
+
 > ~/Inquiry/wwwroot/Handy/index.html
-	"	12	48
+	"	16	5
 	^	12	53
 	.	12	52
 	+	1	0

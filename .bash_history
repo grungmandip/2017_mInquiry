@@ -236,3 +236,37 @@ ls
 cd ..
 cd wwwroot
 ls
+echo "Inquiry test" > index.php
+cd
+pwd
+ls
+cd inquiry
+cd Inquiry
+git commit -a
+git add wwwroot/inquiry.php wwwroot/inquiry_fin.php
+ls
+git commit -a -m '2nd commit.'
+ls
+cd Inquiry
+ls
+cd..
+cd ..
+cd wwwroot
+ls
+cd wwwroot
+l
+la
+ls
+cd Handy
+ls
+vim index.html
+cd ..
+cd ;
+ls
+cd wwwroot
+la
+ls
+cd 3itproject
+ls
+vim index.html
+exit

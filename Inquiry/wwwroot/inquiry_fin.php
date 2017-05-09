@@ -1,6 +1,10 @@
 <?php
 // inquiry_fin.php
+//
+ob_start();
+session_start();
 
+//入力された情報を取得
 
 $params = array('email','name','birthday','body');
 $input_data=array();
@@ -38,12 +42,21 @@ if ('' == $input_data['birthday']) {
 
 //error control
 if(array() != $error_detail){
-//
-	echo 'there is error!!';
+//エラー内容をセッションに入れて見る
+	$_SESSION['buffer']['error_detail'] = $error_detail;
+	//入力された情報を取得
+	$_SESSION['buffer']['input'] = $input_data;
+	//echo 'there is error!!';
+//入力ページに空き…
+	header('Location: ./inquiry.php');
 	exit;
 }
 //ダミー
 echo "your validation of data is ok!!";
+
+//入力された情報をDBにinsert
+
+//
 
 
 ?>
